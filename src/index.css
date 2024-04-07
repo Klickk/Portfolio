@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c-primary {
+  background-color: #353179;
+}
+
+.c-secondary {
+  background-color: #28255b;
+}
+
+.c-tertiary {
+  background-color: #7875ae;
+}
+
+.c-quaternary {
+  background-color: #4d47b1;
+}
+
+.c-pentenary {
+  background-color: #4f4d70;
+}
+
+.text-primary {
+  color: #353179;
+}
+
+.text-secondary {
+  color: #28255b;
+}
+
+.text-tertiary {
+  color: #7875ae;
+}
+
+.text-quaternary {
+  color: #4d47b1;
+}
+
+.text-pentenary {
+  color: #4f4d70;
+}
+
+.border-primary {
+  border-color: #353179;
+}
+
+.border-secondary {
+  border-color: #28255b;
+}
+
+.border-tertiary {
+  border-color: #7875ae;
+}
+
+.border-quaternary {
+  border-color: #4d47b1;
+}
+
+.border-pentenary {
+  border-color: #4f4d70;
+}
+
+.footer {
+  height: 50vh;
+}
+
+.app {
+  position: relative;
+}
+
+.content {
+  margin-top: 4rem;
+  height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+  width: 10px; /* Adjust scrollbar width */
+}
+
+/* Handle */
+.content::-webkit-scrollbar-thumb {
+  background: #7875ae; /* Your tertiary color */
+}
+
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+  background: #4c4c4c; /* Change color on hover */
+}
+.content::-webkit-scrollbar-track {
+  background: #4f4d70; /* Replace with your desired color */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #4f4d70 #28255b; /* Your tertiary color and transparent background */
+}
